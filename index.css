@@ -693,7 +693,7 @@ GRAFICO LINEAL
     border-radius: 50%;
 }
 
-[data-valor='23']:after {
+/* [data-valor='23']:after {
     content: '+' attr(data-valor) '%';
     position: absolute;
     right: -2.7rem;
@@ -702,7 +702,7 @@ GRAFICO LINEAL
     background: #50597B;
     border-radius: .5rem;
     transform: rotate(45deg);
-}
+} */
 
 [class^='eje-'] {
     position: absolute;
