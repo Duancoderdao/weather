@@ -758,7 +758,7 @@ GRAFICO LINEAL
 .item-support-header{
    width:100%;
    height: 10%;
-   border-bottom: 2px solid #d9c3c3;
+   border-bottom: 1px solid #d9c3c3;
 }
 .support-header-name{
    padding: 10px;
@@ -785,7 +785,7 @@ height: 60%;
     width: 100%;
     height: 30%;
     /* background-color: yellow; */
-   border-top: 2px solid #d9c3c3;
+   border-top: 1px solid #d9c3c3;
    margin-top:10px;
    
 }
