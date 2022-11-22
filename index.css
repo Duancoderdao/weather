@@ -493,11 +493,11 @@ span {
     float: left;
     width: 100%;
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /******************************************** LEFT CONTAINER *****************************************/
-.left-container {}
+/* .left-container {} */
 
 .menu-box {
     height: 360px;
@@ -554,6 +554,10 @@ span {
 .line-chart {
     height: 260px;
     background: #11a8ab;
+    display: none;
+}
+.line-chart.active {
+    display: block;
 }
 
 .time-lenght {
@@ -576,6 +580,10 @@ span {
     -webkit-transition: background .3s;
     transition: background .3s;
 }
+.time-lenght-btn.active
+{
+    background: #e64c65;
+}
 
 .time-lenght-btn:hover {
     text-decoration: none;
@@ -584,6 +592,10 @@ span {
 
 .month-data {
     padding-top: 28px;
+    display:none;
+}
+.month-data.active {
+    display: block;
 }
 
 .month-data p {

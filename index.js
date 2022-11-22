@@ -7,6 +7,9 @@ const activeItem = document.querySelectorAll(".content-list__item");
 const btn = document.querySelectorAll(".btn");
 const changeConnect = document.querySelectorAll(".content-title-connect");
 const changeBground = document.querySelectorAll(".item2-contain-content");
+const linechart = document.querySelectorAll(".line-chart");
+const timelenghtbtn = document.querySelectorAll(".time-lenght-btn");
+const monthDate = document.querySelectorAll(".month-data ");
 // item 1 .........................
 
 $(document).ready(() => {
@@ -57,3 +60,18 @@ btn.forEach((value, index) => {
 });
 
 // item 3
+
+timelenghtbtn.forEach((value, index) => {
+  const chartIndex = linechart[index];
+  const monthDateIndex = monthDate[index];
+  value.onclick = () => {
+    document.querySelector(".month-data.active").classList.remove("active");
+    document.querySelector(".line-chart.active").classList.remove("active");
+    document
+      .querySelector(".time-lenght-btn.active")
+      .classList.remove("active");
+    value.classList.add("active");
+    chartIndex.classList.add("active");
+    monthDateIndex.classList.add("active");
+  };
+});
