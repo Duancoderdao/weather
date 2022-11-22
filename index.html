@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>forecast weather</title>
+  </head>
+  <body>
+    <div class="app">
+      <!-- menu  -->
+      <div class="for__menu">
+        <div class="menu__home active">
+          <i class="menu__home-icon fa-solid fa-house"></i>
+        </div>
+        <div class="menu__home">
+          <i class="menu__home-icon fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <div class="menu__home">
+          <i class="menu__home-icon fa-solid fa-cloud"></i>
+        </div>
+        <div class="menu__home">
+          <i class="menu__home-icon fa-regular fa-bell"></i>
+        </div>
+        <div class="menu__home">
+          <i class="menu__home-icon fa-solid fa-cloud-arrow-down"></i>
+        </div>
+        <div class="menu__home">
+          <i
+            class="menu__home-icon fa-sharp fa-solid fa-person-circle-question"
+          ></i>
+        </div>
+      </div>
+
+      <!-- contain        -->
+      <div class="for__contain">
+        <div class="contain--header">
+          <div class="header__title">
+            <div class="header__title-left">
+              <h1 class="header__title-left-h1">Good afternoon, Ha noi</h1>
+              <p class="header__title-left-p">Have a nice day</p>
+            </div>
+            <div class="header__title-right">
+              <h1 class="header__title-right-h1">8:21 PM</h1>
+              <p class="header__title-right-p">Monday, 03 may 2023</p>
+            </div>
+          </div>
+          <ul class="header__list">
+            <li class="header__list-item change-color">Living room</li>
+            <li class="header__list-item">Dining room</li>
+            <li class="header__list-item">Bed room</li>
+            <li class="header__list-item">Bath room</li>
+            <li class="header__list-item">Backyard</li>
+          </ul>
+        </div>
+        <div class="contain__content">
+          <div class="contain__content-list">
+            <div class="content-list__item active">
+              <div class="list__item-image">
+                <img
+                  class="item-image-img"
+                  src="https://noithatbacau.net/wp-content/uploads/2018/03/giuong-thong-minh-dep-60-1.jpg"
+                  alt="logo"
+                />
+                <img
+                  class="item-image-img"
+                  src="https://noithatdeco.com.vn/wp-content/uploads/2021/03/su-dung-giuong-keo-trong-thiet-ke-phong-ngu-nho.jpg"
+                  alt="logo"
+                />
+                <img
+                  class="item-image-img"
+                  src="http://noithattrevietnam.com/uploaded/2-Do-noi-that-sang-tao-trong-nha-ong.jpg"
+                  alt="logo"
+                />
+                <img
+                  class="item-image-img"
+                  src="https://www.noithatvhome.com/wp-content/uploads/2018/11/go-oc-cho-trong-thiet-ke-noi-that-600x400.jpg"
+                  alt="logo"
+                />
+              </div>
+              <div class="list__item-branch">
+                <div class="item-branch-imgage">
+                  <img
+                    class="branch-imgage-img"
+                    src="https://tse2.mm.bing.net/th?id=OIP.wcdTGidDnERnYRdoSbPTbgHaHa&pid=Api&P=0"
+                    alt="logo"
+                  />
+                </div>
+
+                <div class="item-branch-imgage">
+                  <img
+                    class="branch-imgage-img"
+                    src="https://tse4.mm.bing.net/th?id=OIP.PUNjdtgt0hOHdjBUo28HWwHaE4&pid=Api&P=0"
+                    alt="logo"
+                  />
+                </div>
+                <div class="item-branch-imgage">
+                  <img
+                    class="branch-imgage-img"
+                    src="https://tse3.mm.bing.net/th?id=OIP.TT02EQbS6tMuX35gH8ryFgHaE4&pid=Api&P=0"
+                    alt="logo"
+                  />
+                </div>
+                <div class="item-branch-imgage">
+                  <img
+                    class="branch-imgage-img"
+                    src="https://i.pinimg.com/736x/1f/50/a6/1f50a676eda8d15a73a811bea6521bbe.jpg"
+                    alt="logo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="content-list__item">
+              <div class="list__item2-title">
+                <i class="list__item2-add fa-solid fa-plus"> </i>Add
+              </div>
+              <div class="list__item2-contain">
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-fan"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Air conditioner</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-tv"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Android TV</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-wind"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Air Purifier</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-lightbulb"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Light</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Ceiling lightsr</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-tower-broadcast"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Broadcast</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-wifi"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Wifi</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+                <div class="item2-contain-content">
+                  <div class="contain-content-icon">
+                    <i class="fa-solid fa-lock"></i>
+                  </div>
+
+                  <div class="contain-content-title">
+                    <h1 class="content-title-h1">Lock</h1>
+                    <p class="content-title-connect">Not Connect</p>
+                  </div>
+                  <button class="btn">off</button>
+                </div>
+              </div>
+            </div>
+            <div class="content-list__item">
+              <div class="list__item-3"></div>
+            </div>
+            <div class="content-list__item">item 4</div>
+            <div class="content-list__item">item 5</div>
+            <div class="content-list__item">item 6</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- for_weather -->
+      <div class="for__weather">
+        <div class="for__weather-list">
+          <div class="weather-header">
+            <h1 class="weather-header-title">Party Cloudy</h1>
+          </div>
+          <div class="weather-contain">
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Today</div>
+                <p class="contain-content-p">Cloudy</p>
+              </div>
+              <div class="weather-contain-temperature">24'/30'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-solid fa-cloud-rain"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Tomorrow</div>
+                <p class="contain-content-p">Rain</p>
+              </div>
+              <div class="weather-contain-temperature">20'/27'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-solid fa-cloud-sun-rain"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Tuesday</div>
+                <p class="contain-content-p">Cloud Sun Rain</p>
+              </div>
+              <div class="weather-contain-temperature">34'/23'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-solid fa-sun"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Wednesday</div>
+                <p class="contain-content-p">Sun</p>
+              </div>
+              <div class="weather-contain-temperature">34'/23'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-solid fa-cloud-bolt"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Thursday</div>
+                <p class="contain-content-p">Cloud Bolt</p>
+              </div>
+              <div class="weather-contain-temperature">27'/23'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Friday</div>
+                <p class="contain-content-p">Thunder</p>
+              </div>
+              <div class="weather-contain-temperature">20'/23'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-sharp fa-solid fa-wind"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Saturday</div>
+                <p class="contain-content-p">Wind</p>
+              </div>
+              <div class="weather-contain-temperature">34'/23'</div>
+            </div>
+            <div class="weather-contain-include">
+              <div class="weather-contain-icon">
+                <i class="fa-regular fa-snowflake"></i>
+              </div>
+              <div class="weather-contain-content">
+                <div class="contain-content-title">Sunday</div>
+                <p class="contain-content-p">Snow</p>
+              </div>
+              <div class="weather-contain-temperature">-2'/12'</div>
+            </div>
+          </div>
+          <div class="weather-fotter">
+            <img
+              class="weather-fotter-img"
+              src="https://baoquocte.vn/stores/news_dataimages/minhchau/122016/29/14/143822_52-9-Anh_minh_hoa.jpg"
+              alt="logo"
+            />
+          </div>
+        </div>
+        <div class="infor">
+          <p class="infor-name">Duẩndz</p>
+
+          <div class="infor-title">
+            <img
+              class="infor-title-img"
+              src="https://anhgaixinh.vn/wp-content/uploads/2022/09/52318196782_66ce4c4f70_o.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

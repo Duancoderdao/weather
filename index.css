@@ -1,0 +1,414 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    width: 1200px;
+    height: 800px;
+    background-color: #5a809c;
+    color: #fff;
+    margin-top: 30px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.app {
+    width: 1200px;
+    height: 100%;
+    background-color: #2a424adb;
+    display: flex;
+    border-radius: 30px;
+
+}
+
+
+/* for__menu */
+
+.for__menu {
+    width: 5%;
+    height: 100%;
+    padding-top: 14%;
+}
+
+.menu__home {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    /* background-color:blue; */
+    opacity: 0.6;
+}
+
+.menu__home-icon {
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+
+.menu__home.active {
+    opacity: 1;
+}
+
+.menu__home:hover {
+    opacity: 1;
+}
+
+/* for__contain */
+
+.for__contain {
+    width: 70%;
+    height: 100%;
+}
+
+.contain--header {
+    width: 100%;
+    height: 19%;
+}
+
+
+.header__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px 0 5px;
+
+}
+
+
+.header__title-left {
+    margin: 0;
+}
+
+.header__title-left-h1 {
+    font-size: 1.6rem;
+    opacity: 0.9;
+    padding-bottom: 3px;
+}
+
+.header__title-left-p {
+    opacity: 0.8;
+}
+
+.header__title-right {
+    margin: 0;
+
+}
+
+.header__title-right-h1 {
+    font-size: 1.6rem;
+    opacity: 0.9;
+    padding-bottom: 3px;
+}
+
+.header__title-right-p {
+    opacity: 0.8;
+}
+
+.contain__content {
+    width: 100%;
+    height: 72%;
+    background-color:#5e959321;
+    /* box-shadow: 0 0 2px 2px #9bafcd3b; */
+}
+
+
+.header__list {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: left;
+    margin: 0;
+    padding: 50px 0 0 0;
+}
+
+.header__list-item {
+    font-size: 1.2rem;
+    opacity: 0.5;
+    position: relative;
+    cursor: pointer;
+}
+
+.change-color {
+    opacity: 1;
+
+
+}
+
+.change-color::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    border-bottom: 2px solid rgb(214, 203, 203);
+
+}
+
+
+.contain__content {
+    border-radius: 15px;
+
+}
+
+.contain__content-list {
+    width: 100%;
+
+}
+
+.content-list__item {
+    margin-top: 20px;
+    width: 95%;
+    height: 91%;
+    object-fit: center;
+    padding: 22px;
+    border-radius: 55px;
+    /* overflow: hidden; */
+    display: none;
+
+}
+
+.content-list__item.active {
+    display: block;
+}
+
+/* item 1  */
+.list__item-image {
+    width: 100%;
+    height: 20%;
+}
+
+.item-image-img {
+    width: 100%;
+    height: 373px;
+    object-fit: center;
+   border-radius: 10px;
+    }
+
+.list__item-branch {
+    width: 100%;
+        height: 125px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding-top: 10px;
+}
+
+.item-branch-imgage {
+    width: 48%;
+    height: 94%;
+
+    margin: 6px;
+    position: relative;
+  
+    box-shadow: 0 0 5px 5px #6b6969;
+   border-radius: 10px;
+    
+}
+
+.branch-imgage-img:hover {
+   transform: scale(0.9);
+   transition: 1s ;
+}
+
+
+.brach-title{
+  position:absolute;
+    top: 43%;
+    left: 40%;
+    color:#cbcdd9;
+}
+.branch-imgage-img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+   border-radius: 10px;
+
+    cursor: pointer;
+}
+
+
+
+.contain__content-item {
+    width: 100%;
+    height: 40%;
+}
+
+
+
+
+/* item 2  */
+
+.list__item2-title{
+    float: right;
+    margin: 10px 10px;
+    font-size:1.2rem;
+    opacity: 0.7;
+    cursor: pointer;
+} 
+.list__item2-title:hover{
+    opacity: 1;
+
+}
+.list__item2-add
+{
+    padding-right: 5px;
+    font-size: 15px;
+}
+.list__item2-contain{
+    display: flex;
+    flex-wrap: wrap;
+   width: 100%;
+   height: 100%;
+margin-top: 66px;
+}
+.item2-contain-content{
+    width : 49%;
+    height: 100px;
+    /* background-color:#566457; */
+     box-shadow:0 0 4px 2px #777679;
+    margin-bottom:10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.item2-contain-content.active {
+    background-color: #2e4e64;
+    color: white;
+}
+.contain-content-icon{
+    font-size: 2rem;
+}
+.contain-content-title{
+    margin-left: -10px;
+}
+.content-title-h1{
+font-size: 1.3rem;
+margin-bottom: 3px;
+}
+.content-title-connect{
+  font-size:1rem;
+  opacity: 0.8;
+}
+.btn{
+  padding: 4px 15px;
+  border-radius:20px;
+  cursor: pointer;
+  /* display:none; */
+}
+
+  
+/* for__weather */
+
+.for__weather {
+    width: 25%;
+    height: 80%;
+    background-color:#848d8c1c;
+    margin: 110px 10px;
+    border-radius: 16px;
+    position: relative;
+    box-shadow: 0 0 5px 5px #9bafcd3b;
+}
+.for__weather-list{
+        width: 90%;
+        height: 90%;
+
+        /* background-color: red; */
+        margin-top: 34px;
+        border-radius: 15px;
+}
+.weather-header{
+   width: 100%;
+   height: 10%;
+   /* background-color: yellow; */
+   text-align: center;
+}
+.weather-header-title
+{
+    opacity: 0.8;
+
+}
+.weather-contain{
+    width: 100%;
+    height: 70%;
+    /* background-color:blue; */
+
+}
+
+.weather-contain-include{
+ padding-top: 8px;
+ display:flex;
+ /* border: 1px solid rgb(254, 244, 244); */
+ /* text-align: center; */
+ padding: 8.3px 0;
+ /* justify-content:space-around; */
+} 
+.weather-contain-icon{
+padding-top: 8px;
+font-size: 1.2rem;
+margin-left: 10px;
+} 
+.weather-contain-content{
+    position: absolute;
+    left:70px;
+
+} 
+.contain-content-title{
+font-size: 0.8rem;
+opacity: 0.7;
+padding-bottom: 1px;
+} 
+.contain-content-p{
+ opacity: 1;
+ font-size:1rem;
+margin-left: -9px;
+}
+.weather-contain-temperature{
+position: absolute;
+right: 14px;
+padding-top: 10px;
+}
+
+
+.weather-fotter{
+    margin-top: 5px;
+    border-top: 2px solid #506670;
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+}
+.weather-fotter-img{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+.infor{
+  position: absolute;
+  top: -13%;
+  right: -8%;
+  width:150px;
+  height: 40px;
+  display: flex;
+  
+}
+.infor-title{
+   width: 40px;
+   /* height: 40px; */
+   cursor: pointer;
+}
+.infor-title-img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.infor-name{
+    position: absolute;
+    top: 9px;
+    left: -10px;
+}
