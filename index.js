@@ -10,6 +10,12 @@ const changeBground = document.querySelectorAll(".item2-contain-content");
 const linechart = document.querySelectorAll(".line-chart");
 const timelenghtbtn = document.querySelectorAll(".time-lenght-btn");
 const monthDate = document.querySelectorAll(".month-data ");
+const inforimg = document.querySelector(".infor-title-img");
+const inforbranch = document.querySelector(".infor-title-branch");
+
+inforimg.onclick = () => {
+  inforbranch.classList.toggle("active");
+};
 // item 1 .........................
 
 $(document).ready(() => {
